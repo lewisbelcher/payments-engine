@@ -1,0 +1,14 @@
+[package]
+name = "payments-engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+csv = "1.1"
+env_logger = "0.9"
+log = "0.4"
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+rstest = "0.13"
