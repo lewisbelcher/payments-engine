@@ -5,7 +5,7 @@ A simple payments engine written in Rust.
 ## Usage
 
 ```sh
-[RUST_LOG=debug] cargo run -- <input file> [> <output file>]
+[RUST_LOG=debug] cargo run -- INPUT_FILE [> OUTPUT_FILE]
 ```
 
 ## Tests
