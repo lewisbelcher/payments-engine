@@ -67,12 +67,3 @@ cargo test
 - In concurrent settings (reading from TCP streams, replicated microservices
   etc.) such a database should support appropriate isolation (row-level locking,
   exclusive on writes, shared on reads).
-
-# Commit msg:
-
-One commit to rule them all...
-
-Apologies for the mono-commit. I had strange ideas about not wanting to reveal
-how much time I'd spent on this project and it only dawned on my later that this
-is not very important and it would have been useful to show the stages of
-development.
