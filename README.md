@@ -31,11 +31,11 @@ cargo test
 - It is possible for a client to have negative funds. If a client deposits,
   withdraws, and then a dispute and chargeback occur on the original deposit
   (e.g. perhaps the original deposit was fraudulent), then the client will be in
-  debt by the amount in the withdrawal. I believe this is an legitimate flow.
+  debt by the amount in the withdrawal. I believe this is a legitimate flow.
 - Disputes are only possible on deposits. This is implied by the spec: "clients
   available funds should decrease by the amount disputed, their held funds
   should increase by the amount disputed". It would otherwise be appropriate to
-  dispute an erroneous/malicious withdrawal, but given the spec, I have not
+  dispute an erroneous/malicious withdrawal, but given the spec I have not
   implemented this.
 - Rounding errors are not accounted for here but the risks should be assessed in
   code intended for production.
