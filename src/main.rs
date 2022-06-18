@@ -9,7 +9,7 @@ use anyhow::{anyhow, Result};
 pub mod process;
 pub mod types;
 
-static ARG_MSG: &str = "Expected one positional argument (path to CSV file to process)";
+const ARG_MSG: &str = "Expected one positional argument (path to CSV file to process)";
 
 /// Parse Arg
 ///
